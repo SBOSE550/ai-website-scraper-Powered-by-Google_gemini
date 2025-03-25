@@ -1,32 +1,48 @@
+/* Set a black background for the entire app view */
 .stAppViewContainer {
-    background-image: url("https://images.unsplash.com/photo-1732979887702-40baea1c1ff6?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    color: black;
-    }
-    .stAppHeader {
-    background-color: rgba(0, 0, 0, 0);
-    }
-    .st-ae {
-    background-color: rgba(233, 235, 234, 0.895);
-    }
-    .st-emotion-cache-ysk9xe {
-    color: black;
-    }
-    .st.info, .stAlert {
-    background-color: black;
-    }
-    .st-key-scrape_button button {
+    background-color: #000;
+    background-image: none; /* Remove any background image */
+    color: #fff; /* Default text color set to white */
+}
+
+/* App header with transparent background and gold accent for text */
+.stAppHeader {
+    background-color: transparent;
+    color: #d4af37; /* Gold color */
+}
+
+/* Container elements styling with dark shades and gold accents */
+.st-ae {
+    background-color: #1a1a1a; /* Very dark gray */
+    color: #fff; /* White text for readability */
+}
+
+/* Ensure that any dynamic text elements use a readable white color */
+.st-emotion-cache-ysk9xe {
+    color: #fff;
+}
+
+/* Info and alert messages styled with black background and gold text */
+.st.info, .stAlert {
+    background-color: #000;
+    color: #d4af37;
+}
+
+/* Button styling: gold background with black text */
+.st-key-scrape_button button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
+    color: #000;
+    background-color: #d4af37; /* Gold */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     animation: pulse 2s infinite;
-    }
-    .st-key-scrape_button button:hover {
-    background-color: #0056b3;
-    color: #fff;
-    }
+}
+
+/* Button hover styling: slightly darker gold with black text */
+.st-key-scrape_button button:hover {
+    background-color: #b8860b; /* Darker gold */
+    color: #000;
+}
