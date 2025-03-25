@@ -1,6 +1,10 @@
 # AI Web Scraper
+
 ## Overview
 This project is a web scraper powered by AI. It allows users to enter a website URL and automatically retrieve and clean the information from that website. It then uses an AI language model to extract key insights from the scraped content. This project is designed to help users quickly gather important data from websites without manually copying information.
+
+## Live Demo
+You can access the live app here: [AI Web Scraper Live App](https://ai-website-scraper-powered-by-appgemini-9hgnilncl7hrukmvvvgylp.streamlit.app/) 
 
 ## What Problem Does It Solve?
 In today's digital age, there is a lot of data on the web. However, gathering and understanding this data can be time-consuming and challenging. This project simplifies the process by:
@@ -9,7 +13,7 @@ In today's digital age, there is a lot of data on the web. However, gathering an
 
 - **Handling Websites with Login:** If the website requires a login, it prompts users for their credentials.
 
-- **Using AI to Summarize:** The system uses an AI service to help extract the most relevant information based on what the user is interested in.
+- **Using AI to Summarize:** The system uses the Gemani API to help extract the most relevant information based on what the user is interested in.
 
 - **Download Options:** Users can download the final extracted data in different formats (CSV, text, or PDF) for easy sharing or further analysis.
 
@@ -18,23 +22,22 @@ Automatic Scraping: Retrieves and cleans content from any website.
 
 - **Login Detection:** Automatically detects if the website requires login and prompts for credentials when needed.
 
-- **AI Integration:** Uses a language model (LLM API) to extract insights from the scraped data.
+- **AI Integration:** Uses the Gemani API to extract insights from the scraped data.
 
 - **Multiple Download Formats:** Offers CSV, text, and PDF downloads so users can choose the format that works best for them.
 
 - **User-Friendly Interface:** Built with Streamlit, making it easy for non-technical users to interact with the tool.
 
 ## Why This Project is Special
-- **First Time with LLM API:** This is my first project where I've integrated an AI language model API. It was a learning experience that combined web scraping with modern AI technology.
-
+- **First Time with Gemani API:** This is my first project where I've integrated the Gemani API. It was a learning experience that combined web scraping with modern AI technology.
 - **Real-World Impact:** Whether you're a recruiter looking to quickly evaluate a company's online data or a business owner wanting to analyze competitor information, this tool saves time and provides actionable insights.
 
 ## How to Use It
-1. **Enter API Key:** Provide your API key for the AI service.
+1. **Enter Gemani API Key:** Provide your API key for the Gemani service.
 
 2. **Enter Website URL:** Input the URL of the website you want to scrape.
 
-3. **Describe Your Data Needs:*8 Tell the system what kind of data or insights you're looking for.
+3. **Describe Your Data Needs:** Tell the system what kind of data or insights you're looking for.
 
 4. **Click "Scrape":** The system will load the website. If the site requires login, a sidebar will prompt you for your username and password.
 
@@ -52,6 +55,4 @@ Automatic Scraping: Retrieves and cleans content from any website.
 - **Anyone:** This tool makes web data extraction and insight generation simple and accessible.
 
 ## Final Note
-This project is a beginner’s foray into integrating advanced AI (LLM API) with web scraping. I hope it serves as a practical tool for those needing fast and efficient data extraction from the web.
-
-
+This project is a beginner’s foray into integrating advanced AI (Gemani API) with web scraping. I hope it serves as a practical tool for those needing fast and efficient data extraction from the web.
