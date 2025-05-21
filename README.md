@@ -3,8 +3,10 @@
 ## Overview
 This project is a web scraper powered by AI. It allows users to enter a website URL and automatically retrieve and clean the information from that website. It then uses an AI language model to extract key insights from the scraped content. This project is designed to help users quickly gather important data from websites without manually copying information.
 
-## Live Demo
-You can access the live app here: [AI Web Scraper Live App]() 
+
+![Ai website scraper](https://github.com/user-attachments/assets/9a7f69f4-4153-4469-b373-e91d44e552b2)
+
+
 
 ## What Problem Does It Solve?
 In today's digital age, there is a lot of data on the web. However, gathering and understanding this data can be time-consuming and challenging. This project simplifies the process by:
